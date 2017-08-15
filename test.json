@@ -1,0 +1,42 @@
+[
+{
+    "cat": "MY_SUBSYSTEM",
+    "pid": 4260,
+    "tid": 4776,
+    "ts": 2168627922667,
+    "ph": "B",
+    "name": "doSomethingCostly",
+    "args":
+    {
+        "test" : 45
+    }
+},
+{
+    "cat": "MY_SUBSYSTEM2",
+    "pid": 4260,
+    "tid": 4776,
+    "ts": 2168627922668,
+    "ph": "B",
+    "name": "doSomethingCostly2",
+    "args": {}
+},
+{
+    "cat": "MY_SUBSYSTEM2",
+    "pid": 4260,
+    "tid": 4776,
+    "ts": 2168627922669,
+    "ph": "E",
+    "name": "doSomethingCostly2",
+    "args": {}
+},
+{
+    "cat": "MY_SUBSYSTEM",
+    "pid": 4260,
+    "tid": 4776,
+    "ts": 2168627922670,
+    "ph": "E",
+    "name": "doSomethingCostly",
+    "args": {}
+},
+{}
+]
