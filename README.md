@@ -5,7 +5,8 @@ that can be viewed in chrome://tracing.
 The implementation is written in C++, currently linking with C is planned (not implemented).  
 It is also planned to have proper C support.  
 
-The idea came from this article: [http://www.gamasutra.com/view/news/176420/Indepth_Using_Chrometracing_to_view_your_inline_profiling_data.php](http://www.gamasutra.com/view/news/176420/Indepth_Using_Chrometracing_to_view_your_inline_profiling_data.php)  
+The idea came from these articles: [http://www.gamasutra.com/view/news/176420/Indepth_Using_Chrometracing_to_view_your_inline_profiling_data.php](http://www.gamasutra.com/view/news/176420/Indepth_Using_Chrometracing_to_view_your_inline_profiling_data.php)  
+[http://overbyte.com.au/index.php/overbyte-blog/entry/a-profiling-primer](http://overbyte.com.au/index.php/overbyte-blog/entry/a-profiling-primer)  
 
 # Install
 Installation of pm_tracer is pretty straight forward, just include the necessary  
