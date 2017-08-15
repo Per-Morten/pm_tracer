@@ -1,0 +1,62 @@
+///////////////////////////////////////////////////////////
+/// \file pm_tracer.h
+///////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////
+/// \def PM_TRACER_INIT(file)
+///
+/// \brief
+///     Initializes the pm_tracer system, so that it
+///     can be used.
+///
+/// \note
+///     Must be called before the pm_tracer system
+///     can be used.
+///
+/// \param file
+///     pointer to file which should be used for output.
+///     For example stdout, stderr, or some other FILE*
+///
+///////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////
+/// \def PM_TRACER_SHUTDOWN()
+///
+/// \brief
+///     Shuts down the pm_tracer system.
+///
+/// \note
+///     Must be called when finished running pm_tracer.
+///////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////
+/// \def PM_TRACER_BEGIN(category, name)
+///
+/// \brief
+///     Registers a new begin trace.
+///
+/// \note
+///     if PM_TRACER_USE_RAII is set, the trace will
+///     clean up automatically, and you don't need
+///     to call PM_TRACER_END(category, name).
+///
+/// \param category
+///     const char* to the category of this data.
+///
+/// \param name
+///     const char* to the name of this data.
+///////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////
+/// \def PM_TRACER_END(category, name)
+///
+/// \brief
+///     Registers the trace with category name
+///     to stop trace.
+///
+/// \param category
+///     const char* to the category of this data.
+///
+/// \param name
+///     const char* to the name of this data.
+///////////////////////////////////////////////////////////
